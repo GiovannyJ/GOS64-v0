@@ -1,0 +1,34 @@
+To Make:
+  Bare Minimum:
+    -process management
+      -terminating, creating, scheduling 
+    -memory management
+      -allocation of memory for processes
+    -device driver
+      -hardware reader for keyboards and such
+    -file i/o
+      -manipulation of files
+      -file permissions
+    -text i/o
+      -input and output of text
+
+  Software:
+    -commands
+      -make directory (special type of file)
+      -make file
+      -delete file
+      -read file
+      -edit file
+      -compile file
+      -run command
+      -see commands
+      -add command
+      -edit command
+    -menu
+      -choose application to run
+    -text editor
+      -edit text (nano/vim/vi)
+    -calculator
+      -application that is a simple calculator
+    -encryption software
+      -take in file and encrypt in special way for output
