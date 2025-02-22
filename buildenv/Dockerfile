@@ -1,10 +1,11 @@
-FROM brett/gcc-cross-x86_64-elf
+FROM randomdude/gcc-cross-x86_64-elf
 
-# Update package lists and install packages
-RUN sed -i 's/stretch/buster/g' /etc/apt/sources.list && \
-    apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install -y nasm xorriso grub-pc-bin grub-common
+RUN apt-get update 
+RUN apt-get upgrade -y
+RUN apt-get install -y nasm
+RUN apt-get install -y xorriso
+RUN apt-get install -y grub-pc-bin
+RUN apt-get install -y grub-common
 
 VOLUME /root/env
 WORKDIR /root/env

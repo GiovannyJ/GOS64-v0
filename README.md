@@ -14,7 +14,7 @@ Follow these steps to run the simple OS:
 
 ### 1. Create Docker Container
 ```sh
-docker build buildenv -t YOU_NAME_IT
+docker build buildenv -t myos-buildenv
 ```
 
 ### 2. attach docker container to local env
