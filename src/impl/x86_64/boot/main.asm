@@ -82,7 +82,7 @@ setup_page_tables:
     ret
 
 enable_paging:
-    ;pass page talbe location to CPU
+    ;pass page table location to CPU
     mov eax, page_table_l4
     mov cr3, eax
 
